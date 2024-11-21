@@ -12,7 +12,7 @@ overflow: hidden;
 
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.navbar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -22,13 +22,13 @@ overflow: hidden;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.navbar a:hover {
   background-color: #ca0707;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.navbar a.active {
   background-color: #04AA6D;
   color: white;
 }
