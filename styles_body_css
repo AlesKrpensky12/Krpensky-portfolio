@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    height: 200vh;
+display: flex;
+flex-direction: column;
+min-height: 100;
+} 
+.content{
+    flex: 1;
+    background-color: blue;
+}
+
+footer
+     {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+
+
+
+
+body{
+    background-color: black;
+    height: 200vh;
+}

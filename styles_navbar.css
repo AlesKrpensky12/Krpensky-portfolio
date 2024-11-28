@@ -1,41 +1,84 @@
-footer{
-position: fixed;
-text-align: center;
-bottom: 0;
+
+
+
+footer {
+  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-align: center;
+   
 }
-.navbar{
 
-background-color: rgb(231, 86, 38);
-overflow: hidden;
 
+.navbar {
+  background-color: rgb(231, 86, 38);
+  overflow: hidden;
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
 }
 
 
-/* Style the links inside the navigation bar */
 .navbar a {
-  float: left;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block; 
+  text-align: center; 
 }
 
-/* Change the color of links on hover */
+
 .navbar a:hover {
   background-color: #ca0707;
-  color: black;
+  color: rgb(245, 240, 240);
 }
 
-/* Add a color to the active/current link */
+
 .navbar a.active {
   background-color: #04AA6D;
   color: white;
 }
 
-.a{
-position: fixed;
-text-align: center;
-bottom: 0%s;
 
+.container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px; 
 }
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+.column:nth-child(1) {
+  background-color: #f0f0f0;
+}
+
+.column:nth-child(2) {
+  background-color: #e0e0e0;
+}
+
+
+p {
+  text-align: right;
+}
+
+
+.container {
+  align-items: center;
+  justify-content: center;
+  height: 300px; 
+}
+
+
+  
+
+
