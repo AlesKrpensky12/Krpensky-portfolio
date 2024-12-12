@@ -21,6 +21,11 @@ footer
         color: white;
         text-align: center;
       }
+      body{
+       
+       align-items: center;
+        font-family:"Supreme-Bold.eot" ;
+      }
 
 
 
@@ -28,4 +33,12 @@ footer
 body{
     background-color: black;
     height: 200vh;
+} @font-face{
+font-family: "Supreme-Bold,eot";
+src: url("..Supreme-Bold.eot");
+
+} @font-face {
+    font-family:"chillax" ;
+    src: url("ch");
 }
+
