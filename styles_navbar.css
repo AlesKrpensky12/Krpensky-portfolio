@@ -28,7 +28,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block; 
+  display: f; 
   text-align: center; 
 }
 
@@ -77,6 +77,93 @@ p {
   justify-content: center;
   height: 300px; 
 }
+
+.section{
+height: 10000;
+
+
+}
+
+html {
+scroll-behavior: smooth;
+
+} @media screen and (max-width: 650px ) {
+  
+}footer {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  text-align: center;
+ 
+
+  
+}.p{
+margin-top: 300px;
+margin-left: 350px;
+color: aqua;
+max-width: 400px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+      
+
+    {
+      @media
+    }
+
+
+    
+   
+
+
+
+
+
+
+    }
+    @media (width >= 650px) {
+        .column{
+               display: flex;
+               flex: auto;
+                flex-direction: column;
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
 
 
   
