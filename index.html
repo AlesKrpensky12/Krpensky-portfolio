@@ -5,24 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-         </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Domů</a></li>
-                <li><a href="about.html">O mně</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Vítejte na mém portfoliu</h1>
-        <p>Jsem webový vývojář a designer.</p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about" class="active">O mně</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="section">
+        <h1>O mně</h1>
+        <img src="https://previews.123rf.com/images/studiostoks/studiostoks1603/studiostoks160300301/54386859-friendly-man-businessman-pop-art-retro-style-retro-businessman-vector-illustration.jpg" alt="">
+        <p>Ahoj! Jsem webový vývojář se zaměřením na moderní technologie.</p>
     </section>
-    <script src="script.js"></script>
+    
+    <section id="projects" class="section">
+        <h1>Projekty</h1>
+        <div class="project">
+            <h2>Projekt 1</h2>
+            <p>tralaallalalaallaalla</p>
+            <a href="#">Zobrazit více</a>
+        </div>
+        <div class="project">
+            <h2>Projekt 2</h2>
+            <p>twewrwrwrwerwrwrwr</p>
+            <a href="#">Zobrazit více</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h1>Kontakt</h1>
+        <p>Email: <a href="krpenskyales1@gmail.com">krpenskyales1@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Moje Portfolio</p>
+    </footer>
 </body>
 </html>
